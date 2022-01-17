@@ -1,77 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://100cjran.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://100cjran.github.io//" rel="alternate" type="text/html" /><updated>2021-11-14T16:34:41+09:00</updated><id>https://100cjran.github.io//feed.xml</id><title type="html">100c’log</title><entry><title type="html">1. 웹 프로그래밍</title><link href="https://100cjran.github.io//jsp20" rel="alternate" type="text/html" title="1. 웹 프로그래밍" /><published>2021-10-08T09:00:20+09:00</published><updated>2021-10-08T09:00:20+09:00</updated><id>https://100cjran.github.io//jsp20</id><content type="html" xml:base="https://100cjran.github.io//jsp20">&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=APJAJeePl4g&amp;amp;list=PLieE0qnqO2kTyzAlsvxzoulHVISvO8zA9&amp;amp;index=33&quot;&gt;SEOUL G-캠프&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;i&gt;Full Table Of Contents&lt;/i&gt;&lt;br /&gt;
-&lt;span class=&quot;table-of-contents-list&quot;&gt;jsp&lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./jsp1&quot;&gt;웹 프로그래밍&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./jsp2&quot;&gt;개발 환경 설정&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./jsp3&quot;&gt;JSP 맛보기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./jsp4&quot;&gt;Servlet 맛보기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./jsp5&quot;&gt;Servlet 본격적으로 살펴보기1&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./jsp6&quot;&gt;Servlet 본격적으로 살펴보기2&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./jsp7&quot;&gt;Servlet 본격적으로 살펴보기3&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./jsp8&quot;&gt;Servlet 본격적으로 살펴보기4&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./jsp9&quot;&gt;JSP 본격적으로 살펴보기1&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./jsp10&quot;&gt;JSP 본격적으로 살펴보기2&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./jsp11&quot;&gt;JSP 본격적으로 살펴보기3&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./jsp12&quot;&gt;액션 태그&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./jsp13&quot;&gt;쿠키&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./jsp14&quot;&gt;세션&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./jsp15&quot;&gt;예외 페이지&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./jsp16&quot;&gt;자바 빈&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./jsp17&quot;&gt;데이터 베이스1&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./jsp18&quot;&gt;데이터 베이스2&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./jsp19&quot;&gt;데이터 베이스3&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./jsp20&quot;&gt;커넥션 풀&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;script&gt;
-    var password = 'airomaster';
-        password = prompt('회사의 영문명(소문자)을 입력해 주세요! :D');
-    if (password != 'airomaster') {
-        prompt('대문자로 입력하진 않으셨나요?! 소문자로 입력해주세요 :D');
-        location.href = 'http://127.0.0.1:4000/';
-    }
-&lt;/script&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;0-목차&quot;&gt;0. 목차&lt;/h2&gt;
-&lt;hr /&gt;
-&lt;h2 id=&quot;chapter1-웹-프로그래밍&quot;&gt;Chapter1. 웹 프로그래밍&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;h4 id=&quot;ch1---1-웹-프로그래밍이란&quot;&gt;Ch1 - 1. &lt;a href=&quot;#Verse1&quot;&gt;웹 프로그래밍이란?&lt;/a&gt;&lt;/h4&gt;
-  &lt;h4 id=&quot;ch1---2-java-웹&quot;&gt;Ch1 - 2. &lt;a href=&quot;#Verse2&quot;&gt;JAVA 웹&lt;/a&gt;&lt;/h4&gt;
-  &lt;h4 id=&quot;ch1---3-웹-프로그램의-동작&quot;&gt;Ch1 - 3. &lt;a href=&quot;#Verse3&quot;&gt;웹 프로그램의 동작&lt;/a&gt;&lt;/h4&gt;
-  &lt;h4 id=&quot;ch1---4-필요한-학습&quot;&gt;Ch1 - 4. &lt;a href=&quot;#Verse4&quot;&gt;필요한 학습&lt;/a&gt;&lt;/h4&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;a name=&quot;Verse1&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;ch1---1-웹-프로그래밍이란-1&quot;&gt;Ch1 - 1. 웹 프로그래밍이란?&lt;/h2&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;a name=&quot;Verse2&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;ch1---2-java-웹-1&quot;&gt;Ch1 - 2. JAVA 웹&lt;/h2&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;a name=&quot;Verse3&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;ch1---3-웹-프로그램의-동작-1&quot;&gt;Ch1 - 3. 웹 프로그램의 동작&lt;/h2&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;a name=&quot;Verse4&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;ch1---4-필요한-학습-1&quot;&gt;Ch1 - 4. 필요한 학습&lt;/h2&gt;
-&lt;hr /&gt;</content><author><name>Jungran_Baek</name></author><category term="jsp" /><summary type="html">SEOUL G-캠프</summary></entry><entry><title type="html">1. 웹 프로그래밍</title><link href="https://100cjran.github.io//jsp19" rel="alternate" type="text/html" title="1. 웹 프로그래밍" /><published>2021-10-08T09:00:19+09:00</published><updated>2021-10-08T09:00:19+09:00</updated><id>https://100cjran.github.io//jsp19</id><content type="html" xml:base="https://100cjran.github.io//jsp19">&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=APJAJeePl4g&amp;amp;list=PLieE0qnqO2kTyzAlsvxzoulHVISvO8zA9&amp;amp;index=33&quot;&gt;SEOUL G-캠프&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://100cjran.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://100cjran.github.io//" rel="alternate" type="text/html" /><updated>2022-01-17T21:25:04+09:00</updated><id>https://100cjran.github.io//feed.xml</id><title type="html">100c’log</title><entry><title type="html">18. DB2</title><link href="https://100cjran.github.io//jsp18" rel="alternate" type="text/html" title="18. DB2" /><published>2021-10-08T09:00:18+09:00</published><updated>2021-10-08T09:00:18+09:00</updated><id>https://100cjran.github.io//jsp18</id><content type="html" xml:base="https://100cjran.github.io//jsp18">&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=APJAJeePl4g&amp;amp;list=PLieE0qnqO2kTyzAlsvxzoulHVISvO8zA9&amp;amp;index=33&quot;&gt;SEOUL G-캠프&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;i&gt;Full Table Of Contents&lt;/i&gt;&lt;br /&gt;
 &lt;span class=&quot;table-of-contents-list&quot;&gt;jsp&lt;/span&gt;&lt;/p&gt;
@@ -101,105 +28,172 @@
 
 &lt;h2 id=&quot;0-목차&quot;&gt;0. 목차&lt;/h2&gt;
 &lt;hr /&gt;
-&lt;h2 id=&quot;chapter1-웹-프로그래밍&quot;&gt;Chapter1. 웹 프로그래밍&lt;/h2&gt;
+&lt;h2 id=&quot;chapter18-데이터-베이스-ii&quot;&gt;Chapter18. 데이터 베이스-II&lt;/h2&gt;
 &lt;blockquote&gt;
-  &lt;h4 id=&quot;ch1---1-웹-프로그래밍이란&quot;&gt;Ch1 - 1. &lt;a href=&quot;#Verse1&quot;&gt;웹 프로그래밍이란?&lt;/a&gt;&lt;/h4&gt;
-  &lt;h4 id=&quot;ch1---2-java-웹&quot;&gt;Ch1 - 2. &lt;a href=&quot;#Verse2&quot;&gt;JAVA 웹&lt;/a&gt;&lt;/h4&gt;
-  &lt;h4 id=&quot;ch1---3-웹-프로그램의-동작&quot;&gt;Ch1 - 3. &lt;a href=&quot;#Verse3&quot;&gt;웹 프로그램의 동작&lt;/a&gt;&lt;/h4&gt;
-  &lt;h4 id=&quot;ch1---4-필요한-학습&quot;&gt;Ch1 - 4. &lt;a href=&quot;#Verse4&quot;&gt;필요한 학습&lt;/a&gt;&lt;/h4&gt;
+  &lt;h4 id=&quot;ch18---1-jdbc-살펴보기&quot;&gt;Ch18 - 1. &lt;a href=&quot;#Verse1&quot;&gt;JDBC 살펴보기&lt;/a&gt;&lt;/h4&gt;
+  &lt;h4 id=&quot;ch18---2-statement객체-살펴보기&quot;&gt;Ch18 - 2. &lt;a href=&quot;#Verse2&quot;&gt;Statement객체 살펴보기&lt;/a&gt;&lt;/h4&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;a name=&quot;Verse1&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;ch1---1-웹-프로그래밍이란-1&quot;&gt;Ch1 - 1. 웹 프로그래밍이란?&lt;/h2&gt;
+&lt;h2 id=&quot;ch18---1-jdbc-살펴보기-1&quot;&gt;Ch18 - 1. JDBC 살펴보기&lt;/h2&gt;
 &lt;hr /&gt;
+&lt;h3 id=&quot;-jdbc란&quot;&gt;▶ JDBC란?&lt;/h3&gt;
+&lt;h6 id=&quot;-java-프로그램에서-sql문을-실행하여-데이터를-관리하기-위한-java-api&quot;&gt;▷ &lt;a href=&quot;https://100cjran.github.io/7javajungsuk20#jdbc&quot;&gt;JAVA 프로그램에서 SQL문을 실행하여 데이터를 관리하기 위한 JAVA API&lt;/a&gt;&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;-jdbc-특징&quot;&gt;▶ JDBC 특징&lt;/h3&gt;
+&lt;h6 id=&quot;-다양한-데이터-베이스에-대해서-별도의-프로그램을-만들-필요-없이&quot;&gt;▷ 다양한 데이터 베이스에 대해서 별도의 프로그램을 만들 필요 없이,&lt;/h6&gt;
+&lt;h6 id=&quot;-해당-데이터-베이스의-jdbc-하나로-관리-가능&quot;&gt;▷ 해당 데이터 베이스의 JDBC 하나로 관리 가능&lt;/h6&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Oracle용 JDBC를 사용하려면?
+    - 오라클을 설치하면 자동으로 설치 되고,
+    - 이클립스에서 해당 클래스 파일을 복사하여 사용
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;-오라클-드라이버를-사용하기-위한-ojdbc11_gjar-파일-복사&quot;&gt;▶ 오라클 드라이버를 사용하기 위한 ojdbc11_g.jar 파일 복사&lt;/h3&gt;
+&lt;h6 id=&quot;-이클립스-설정되어-있는-java-클래스-패스-확인&quot;&gt;▷ 이클립스 설정되어 있는 JAVA 클래스 패스 확인&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&quot;assets/built/postsImages/JSP/2021-08-27-jsp18/img.png&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;-오라클-jdbc-클래스-패스-확인&quot;&gt;▷ 오라클 JDBC 클래스 패스 확인&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&quot;assets/built/postsImages/JSP/2021-08-27-jsp18/img_1.png&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;-데이터-베이스를-사용하기까지&quot;&gt;▶ 데이터 베이스를 사용하기까지&lt;/h3&gt;
+&lt;h6 id=&quot;-데이터-베이스-연결-순서&quot;&gt;▷ 데이터 베이스 연결 순서&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&quot;assets/built/postsImages/JSP/2021-08-27-jsp18/img_2.png&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;a name=&quot;Verse2&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;ch1---2-java-웹-1&quot;&gt;Ch1 - 2. JAVA 웹&lt;/h2&gt;
+&lt;h2 id=&quot;ch18---2-statement객체-살펴보기-1&quot;&gt;Ch18 - 2. Statement객체 살펴보기&lt;/h2&gt;
 &lt;hr /&gt;
+&lt;h3 id=&quot;-executequery&quot;&gt;▶ &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;executeQuery()&lt;/code&gt;&lt;/h3&gt;
+&lt;h6 id=&quot;-sql문-실행-후-여러-개의-결과값-생기는-경우-사용&quot;&gt;▷ SQL문 실행 후 여러 개의 결과값 생기는 경우 사용&lt;/h6&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ex. select...
+테이블에 있는 20세 이상인 사람을 모두 불러오고 싶음
+20세 이상인 사람만 select하여
+결과값으로 가져옴
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;assets/built/postsImages/JSP/2021-08-27-jsp18/img_3.png&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;a name=&quot;Verse3&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h6 id=&quot;-executequery-실행-후-반환-되는-레코드-셋&quot;&gt;▷ &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;executeQuery()&lt;/code&gt; 실행 후 반환 되는 레코드 셋&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&quot;assets/built/postsImages/JSP/2021-08-27-jsp18/img_4.png&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;ch1---3-웹-프로그램의-동작-1&quot;&gt;Ch1 - 3. 웹 프로그램의 동작&lt;/h2&gt;
-&lt;hr /&gt;
+&lt;h3 id=&quot;-executeupdate&quot;&gt;▶ &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;executeUpdate()&lt;/code&gt;&lt;/h3&gt;
+&lt;h6 id=&quot;-sql문-실행-후-테이블의-내용만-변경되는-경우-사용&quot;&gt;▷ SQL문 실행 후 테이블의 내용만 변경되는 경우 사용&lt;/h6&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ex. insert, delete, update...
+테이블에 어떤 내용을 끼워넣거나, 삭제하거나, 수정해도
+결과값으로 다시 가져오거나 그러지 않음
+그냥 끼워넣고, 삭제하고, 수정한 걸로 끝남
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;a name=&quot;Verse4&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/built/postsImages/JSP/2021-08-27-jsp18/img_3.png&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;-예제&quot;&gt;▶ 예제&lt;/h3&gt;
+&lt;h6 id=&quot;-sqlplus로-데이터-생성&quot;&gt;▷ sqlplus로 데이터 생성&lt;/h6&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SQL&amp;gt; create table member (
+  2  id varchar2(20),
+  3  pw varchar2(20),
+  4  name varchar2(20),
+  5  phone varchar2(20));
 
-&lt;h2 id=&quot;ch1---4-필요한-학습-1&quot;&gt;Ch1 - 4. 필요한 학습&lt;/h2&gt;
-&lt;hr /&gt;</content><author><name>Jungran_Baek</name></author><category term="jsp" /><summary type="html">SEOUL G-캠프</summary></entry><entry><title type="html">1. 웹 프로그래밍</title><link href="https://100cjran.github.io//jsp18" rel="alternate" type="text/html" title="1. 웹 프로그래밍" /><published>2021-10-08T09:00:18+09:00</published><updated>2021-10-08T09:00:18+09:00</updated><id>https://100cjran.github.io//jsp18</id><content type="html" xml:base="https://100cjran.github.io//jsp18">&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=APJAJeePl4g&amp;amp;list=PLieE0qnqO2kTyzAlsvxzoulHVISvO8zA9&amp;amp;index=33&quot;&gt;SEOUL G-캠프&lt;/a&gt;&lt;/p&gt;
+테이블이 생성되었습니다.
 
-&lt;p&gt;&lt;i&gt;Full Table Of Contents&lt;/i&gt;&lt;br /&gt;
-&lt;span class=&quot;table-of-contents-list&quot;&gt;jsp&lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./jsp1&quot;&gt;웹 프로그래밍&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./jsp2&quot;&gt;개발 환경 설정&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./jsp3&quot;&gt;JSP 맛보기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./jsp4&quot;&gt;Servlet 맛보기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./jsp5&quot;&gt;Servlet 본격적으로 살펴보기1&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./jsp6&quot;&gt;Servlet 본격적으로 살펴보기2&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./jsp7&quot;&gt;Servlet 본격적으로 살펴보기3&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./jsp8&quot;&gt;Servlet 본격적으로 살펴보기4&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./jsp9&quot;&gt;JSP 본격적으로 살펴보기1&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./jsp10&quot;&gt;JSP 본격적으로 살펴보기2&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./jsp11&quot;&gt;JSP 본격적으로 살펴보기3&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./jsp12&quot;&gt;액션 태그&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./jsp13&quot;&gt;쿠키&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./jsp14&quot;&gt;세션&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./jsp15&quot;&gt;예외 페이지&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./jsp16&quot;&gt;자바 빈&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./jsp17&quot;&gt;데이터 베이스1&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./jsp18&quot;&gt;데이터 베이스2&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./jsp19&quot;&gt;데이터 베이스3&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./jsp20&quot;&gt;커넥션 풀&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+SQL&amp;gt; select * from tab;
+TNAME
+--------------------------------------------------------------------------------
+TABTYPE                     CLUSTERID
+-------------------------- ----------
+MEMBER
+TABLE
 
-&lt;h2 id=&quot;0-목차&quot;&gt;0. 목차&lt;/h2&gt;
-&lt;hr /&gt;
-&lt;h2 id=&quot;chapter1-웹-프로그래밍&quot;&gt;Chapter1. 웹 프로그래밍&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;h4 id=&quot;ch1---1-웹-프로그래밍이란&quot;&gt;Ch1 - 1. &lt;a href=&quot;#Verse1&quot;&gt;웹 프로그래밍이란?&lt;/a&gt;&lt;/h4&gt;
-  &lt;h4 id=&quot;ch1---2-java-웹&quot;&gt;Ch1 - 2. &lt;a href=&quot;#Verse2&quot;&gt;JAVA 웹&lt;/a&gt;&lt;/h4&gt;
-  &lt;h4 id=&quot;ch1---3-웹-프로그램의-동작&quot;&gt;Ch1 - 3. &lt;a href=&quot;#Verse3&quot;&gt;웹 프로그램의 동작&lt;/a&gt;&lt;/h4&gt;
-  &lt;h4 id=&quot;ch1---4-필요한-학습&quot;&gt;Ch1 - 4. &lt;a href=&quot;#Verse4&quot;&gt;필요한 학습&lt;/a&gt;&lt;/h4&gt;
-&lt;/blockquote&gt;
+SQL&amp;gt; insert into member (id, pw, name, phone) values (
+  2  'aaa', '111', 'AAA', '111-1111-1111');
 
-&lt;p&gt;&lt;br /&gt;&lt;a name=&quot;Verse1&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+1 개의 행이 만들어졌습니다.
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+SQL&amp;gt; insert into member (id, pw, name, phone) values (
+  2  'bbb', '222', 'BBB', '222-2222-2222');
 
-&lt;h2 id=&quot;ch1---1-웹-프로그래밍이란-1&quot;&gt;Ch1 - 1. 웹 프로그래밍이란?&lt;/h2&gt;
-&lt;hr /&gt;
+1 개의 행이 만들어졌습니다.
 
-&lt;p&gt;&lt;br /&gt;&lt;a name=&quot;Verse2&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+SQL&amp;gt; insert into member (id, pw, name, phone) values (
+  2  'ccc', '333', 'CCC', '333-3333-3333');
+  
+1 개의 행이 만들어졌습니다.
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+SQL&amp;gt; insert into member (id, pw, name, phone) values (
+  2  'ddd', '444', 'DDD', '444-4444-4444');
+  
+SQL&amp;gt; select * from member;
 
-&lt;h2 id=&quot;ch1---2-java-웹-1&quot;&gt;Ch1 - 2. JAVA 웹&lt;/h2&gt;
-&lt;hr /&gt;
+ID
+----------------------------------------
+PW
+----------------------------------------
+NAME
+----------------------------------------
+PHONE
+----------------------------------------
+aaa
+111
+AAA
+111-1111-1111
 
-&lt;p&gt;&lt;br /&gt;&lt;a name=&quot;Verse3&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+ID
+----------------------------------------
+PW
+----------------------------------------
+NAME
+----------------------------------------
+PHONE
+----------------------------------------
+bbb
+222
+BBB
+222-2222-2222
 
-&lt;h2 id=&quot;ch1---3-웹-프로그램의-동작-1&quot;&gt;Ch1 - 3. 웹 프로그램의 동작&lt;/h2&gt;
-&lt;hr /&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;a name=&quot;Verse4&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+ID
+----------------------------------------
+PW
+----------------------------------------
+NAME
+----------------------------------------
+PHONE
+----------------------------------------
+ccc
+333
+CCC
+333-3333-3333
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;ch1---4-필요한-학습-1&quot;&gt;Ch1 - 4. 필요한 학습&lt;/h2&gt;
-&lt;hr /&gt;</content><author><name>Jungran_Baek</name></author><category term="jsp" /><summary type="html">SEOUL G-캠프</summary></entry><entry><title type="html">17. DB1</title><link href="https://100cjran.github.io//jsp17" rel="alternate" type="text/html" title="17. DB1" /><published>2021-10-08T09:00:17+09:00</published><updated>2021-10-08T09:00:17+09:00</updated><id>https://100cjran.github.io//jsp17</id><content type="html" xml:base="https://100cjran.github.io//jsp17">&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=APJAJeePl4g&amp;amp;list=PLieE0qnqO2kTyzAlsvxzoulHVISvO8zA9&amp;amp;index=33&quot;&gt;SEOUL G-캠프&lt;/a&gt;&lt;/p&gt;
+ID
+----------------------------------------
+PW
+----------------------------------------
+NAME
+----------------------------------------
+PHONE
+----------------------------------------
+ddd
+444
+DDD
+444-4444-4444
+
+SQL&amp;gt; commit;
+
+커밋이 완료되었습니다.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h6 id=&quot;-이클립스로-데이터-확인&quot;&gt;▷ 이클립스로 데이터 확인&lt;/h6&gt;</content><author><name>Jungran_Baek</name></author><category term="jsp" /><summary type="html">SEOUL G-캠프</summary></entry><entry><title type="html">17. DB1</title><link href="https://100cjran.github.io//jsp17" rel="alternate" type="text/html" title="17. DB1" /><published>2021-10-08T09:00:17+09:00</published><updated>2021-10-08T09:00:17+09:00</updated><id>https://100cjran.github.io//jsp17</id><content type="html" xml:base="https://100cjran.github.io//jsp17">&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=APJAJeePl4g&amp;amp;list=PLieE0qnqO2kTyzAlsvxzoulHVISvO8zA9&amp;amp;index=33&quot;&gt;SEOUL G-캠프&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;i&gt;Full Table Of Contents&lt;/i&gt;&lt;br /&gt;
 &lt;span class=&quot;table-of-contents-list&quot;&gt;jsp&lt;/span&gt;&lt;/p&gt;
@@ -230,9 +224,11 @@
 &lt;h2 id=&quot;0-목차&quot;&gt;0. 목차&lt;/h2&gt;
 &lt;hr /&gt;
 &lt;h2 id=&quot;chapter17-데이터-베이스-i&quot;&gt;Chapter17. 데이터 베이스-I&lt;/h2&gt;
-&lt;h4 id=&quot;ch17---1-데이터-베이스의-개요&quot;&gt;Ch17 - 1. &lt;a href=&quot;#Verse1&quot;&gt;데이터 베이스의 개요&lt;/a&gt;&lt;/h4&gt;
-&lt;h4 id=&quot;ch17---2-oracle-설치&quot;&gt;Ch17 - 2. &lt;a href=&quot;#Verse2&quot;&gt;Oracle 설치&lt;/a&gt;&lt;/h4&gt;
-&lt;h4 id=&quot;ch17---3-기본적인-sql문-익히기&quot;&gt;Ch17 - 3. &lt;a href=&quot;#Verse3&quot;&gt;기본적인 SQL문 익히기&lt;/a&gt;&lt;/h4&gt;
+&lt;blockquote&gt;
+  &lt;h4 id=&quot;ch17---1-데이터-베이스의-개요&quot;&gt;Ch17 - 1. &lt;a href=&quot;#Verse1&quot;&gt;데이터 베이스의 개요&lt;/a&gt;&lt;/h4&gt;
+  &lt;h4 id=&quot;ch17---2-oracle-설치&quot;&gt;Ch17 - 2. &lt;a href=&quot;#Verse2&quot;&gt;Oracle 설치&lt;/a&gt;&lt;/h4&gt;
+  &lt;h4 id=&quot;ch17---3-기본적인-sql문-익히기&quot;&gt;Ch17 - 3. &lt;a href=&quot;#Verse3&quot;&gt;기본적인 SQL문 익히기&lt;/a&gt;&lt;/h4&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;a name=&quot;Verse1&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -273,12 +269,26 @@
 &lt;h2 id=&quot;ch17---2-oracle-설치-1&quot;&gt;Ch17 - 2. Oracle 설치&lt;/h2&gt;
 &lt;hr /&gt;
 &lt;h3 id=&quot;-oracle-설치&quot;&gt;▶ Oracle 설치&lt;/h3&gt;
-&lt;h6 id=&quot;-홈페이지-접속-및-다운&quot;&gt;▷ 홈페이지 접속 및 다운&lt;/h6&gt;
+&lt;h6 id=&quot;-오라클-홈페이지-접속&quot;&gt;▷ &lt;a href=&quot;https://www.oracle.com/kr/downloads/&quot;&gt;오라클 홈페이지 접속&lt;/a&gt;&lt;/h6&gt;
 &lt;p&gt;&lt;img src=&quot;assets/built/postsImages/JSP/2021-08-27-jsp17/img_1.png&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;
 &lt;img src=&quot;assets/built/postsImages/JSP/2021-08-27-jsp17/img_2.png&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;
 &lt;img src=&quot;assets/built/postsImages/JSP/2021-08-27-jsp17/img_3.png&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;
 &lt;img src=&quot;assets/built/postsImages/JSP/2021-08-27-jsp17/img_4.png&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;
-&lt;img src=&quot;assets/built/postsImages/JSP/2021-08-27-jsp17/img_5.png&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;-sql-plus란&quot;&gt;▶ SQL PLUS란?&lt;/h3&gt;
+&lt;h6 id=&quot;-데이터-베이스를-관리하기-위한-무료-툴&quot;&gt;▷ 데이터 베이스를 관리하기 위한 무료 툴&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;-sql-plus-사용&quot;&gt;▶ SQL PLUS 사용&lt;/h3&gt;
+&lt;h6 id=&quot;-관리자-계정-로그인&quot;&gt;▷ 관리자 계정 로그인&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&quot;assets/built/postsImages/JSP/2021-08-27-jsp17/img_5.png&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;-idnamewhat-pwpwwhat-계정-생성&quot;&gt;▷ id=nameWhat, pw=pwWhat 계정 생성&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&quot;assets/built/postsImages/JSP/2021-08-27-jsp17/img_6.png&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;-권한-설정&quot;&gt;▷ 권한 설정&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&quot;assets/built/postsImages/JSP/2021-08-27-jsp17/img_7.png&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;a name=&quot;Verse3&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -286,9 +296,17 @@
 
 &lt;h2 id=&quot;ch17---3-기본적인-sql문-익히기-1&quot;&gt;Ch17 - 3. 기본적인 SQL문 익히기&lt;/h2&gt;
 &lt;hr /&gt;
-&lt;h3 id=&quot;-테이블-생성&quot;&gt;▶ 테이블 생성&lt;/h3&gt;
-&lt;h6 id=&quot;-작성-방법&quot;&gt;▷ 작성 방법&lt;/h6&gt;
+&lt;h3 id=&quot;-기본적인-sql문-익히기&quot;&gt;▶ 기본적인 SQL문 익히기&lt;/h3&gt;
+&lt;h6 id=&quot;-테이블-생성&quot;&gt;▷ 테이블 생성&lt;/h6&gt;
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;create table 테이블명 (컬럼명 자료형);
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SQL&amp;gt; create table firstT (
+  2  id varchar2(20) primary key,
+  3  pw varchar2(20),
+  4  name varchar2(20),
+  5  phone varchar2(20));
+
+테이블이 생성되었습니다.
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h6 id=&quot;-자료형이란&quot;&gt;▷ 자료형이란?&lt;/h6&gt;
@@ -298,39 +316,153 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;-테이블-검색&quot;&gt;▶ 테이블 검색&lt;/h3&gt;
-&lt;h6 id=&quot;-작성-방법-1&quot;&gt;▷ 작성 방법&lt;/h6&gt;
+&lt;h6 id=&quot;-테이블-검색&quot;&gt;▷ 테이블 검색&lt;/h6&gt;
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Select * from tab;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SQL&amp;gt; select * from tab;
 
-&lt;h3 id=&quot;-레코드-추가&quot;&gt;▶ 레코드 추가&lt;/h3&gt;
-&lt;h6 id=&quot;-작성-방법-2&quot;&gt;▷ 작성 방법&lt;/h6&gt;
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nc&quot;&gt;Insert&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;into&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;테이블이름&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;컬럼명&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;컬럼명&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;…&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;values&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;데이터&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;데이터&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;…&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+// sqlplus UI가 좋은 편 아님
+// firstT 만들어 진 거 확인 가능
+TNAME
+--------------------------------------------------------------------------------
+TABTYPE                     CLUSTERID
+-------------------------- ----------
+FIRSTT
+TABLE
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;-레코드-검색&quot;&gt;▶ 레코드 검색&lt;/h3&gt;
-&lt;h6 id=&quot;-작성-방법-3&quot;&gt;▷ 작성 방법&lt;/h6&gt;
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;select&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;컬럼명&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;테이블명&lt;/span&gt;
+&lt;h6 id=&quot;-레코드-추가&quot;&gt;▷ 레코드 추가&lt;/h6&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Insert into 테이블이름(컬럼명, 컬럼명, …) values (데이터, 데이터, …);
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SQL&amp;gt; Insert into member (id, pw, name, phone) values ('abc', '123', 'AAA', '111-1111-1111');
+1개의 행이 만들어졌습니다.
+
+SQL&amp;gt; Insert into member (id, pw, name, phone) values ('bbb', '222', 'BBB', '222-2222-2222');
+1개의 행이 만들어졌습니다.
+
+SQL&amp;gt; Insert into member (id, pw, name, phone) values ('ccc', '333', 'BBB', '333-3333-3333');
+1개의 행이 만들어졌습니다.
+
+// 커밋
+SQL&amp;gt; commit;
+커밋이 완료되었습니다.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;레코드 추가 시 권한 불충분으로 에러나서(ORA-01950)
+- 관리자 권한으로 sqlplus 로그인 후
+    sqlplus system/비번
+    
+- 레코드가 있는 id(nameWhat)에 권한을 줌, 커밋까지 해 줌
+    alter user C##nameWhat default tablespace users quota unlimited on users;
+    commit;
+    
+- exit으로 나간 뒤 다시 레코드가 있는 id(nameWhat)로 로그인
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;-레코드-삭제&quot;&gt;▶ 레코드 삭제&lt;/h3&gt;
-&lt;h6 id=&quot;-작성-방법-4&quot;&gt;▷ 작성 방법&lt;/h6&gt;
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;delete&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;테이블명&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;조건&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;h6 id=&quot;-레코드-검색&quot;&gt;▷ 레코드 검색&lt;/h6&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;select 컬럼명 from 테이블명
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SQL&amp;gt; select * from member;
+
+ID
+----------------------------------------
+PW
+----------------------------------------
+NAME
+----------------------------------------
+PHONE
+----------------------------------------
+abc
+123
+AAA
+111-1111-1111
+
+
+ID
+----------------------------------------
+PW
+----------------------------------------
+NAME
+----------------------------------------
+PHONE
+----------------------------------------
+bbb
+222
+BBB
+222-2222-2222
+
+
+ID
+----------------------------------------
+PW
+----------------------------------------
+NAME
+----------------------------------------
+PHONE
+----------------------------------------
+ccc
+333
+CCC
+333-3333-3333
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;-데이터-변경&quot;&gt;▶ 데이터 변경&lt;/h3&gt;
-&lt;h6 id=&quot;-작성-방법-5&quot;&gt;▷ 작성 방법&lt;/h6&gt;
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;update&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;테이블명&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;set&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;컬럼명&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;값&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;컬럼명&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;값&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;…&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;조건&lt;/span&gt;
+&lt;h6 id=&quot;-레코드-삭제&quot;&gt;▷ 레코드 삭제&lt;/h6&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;delete from 테이블명 (조건)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;// 레코드 삭제
+SQL&amp;gt; delete from member where name='CCC';
+1 행이 삭제되었습니다.
+
+// 레코드 검색
+SQL&amp;gt; select * from member;
+
+ID
+----------------------------------------
+PW
+----------------------------------------
+NAME
+----------------------------------------
+PHONE
+----------------------------------------
+abc
+123
+AAA
+111-1111-1111
+
+
+ID
+----------------------------------------
+PW
+----------------------------------------
+NAME
+----------------------------------------
+PHONE
+----------------------------------------
+bbb
+222
+BBB
+222-2222-2222
+
+// CCC 없음
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;-테이블-삭제&quot;&gt;▶ 테이블 삭제&lt;/h3&gt;
-&lt;h6 id=&quot;-작성-방법-6&quot;&gt;▷ 작성 방법&lt;/h6&gt;
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;drop&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;table&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;테이블명&lt;/span&gt;
+&lt;h6 id=&quot;-데이터-변경&quot;&gt;▷ 데이터 변경&lt;/h6&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;update 테이블명 set 컬럼명=값, 컬럼명=값, … 조건
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;// id=bbb 행의 pw를 222에서 222**로 변경
+SQL&amp;gt; update member set pw='222**' where id='bbb';
+1 행이 업데이트되었습니다.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;-테이블-삭제&quot;&gt;▷ 테이블 삭제&lt;/h6&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;drop table 테이블명
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SQL&amp;gt; drop table member;
+테이블이 삭제되었습니다.
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Jungran_Baek</name></author><category term="jsp" /><summary type="html">SEOUL G-캠프</summary></entry><entry><title type="html">16. 자바 빈</title><link href="https://100cjran.github.io//jsp16" rel="alternate" type="text/html" title="16. 자바 빈" /><published>2021-10-08T09:00:16+09:00</published><updated>2021-10-08T09:00:16+09:00</updated><id>https://100cjran.github.io//jsp16</id><content type="html" xml:base="https://100cjran.github.io//jsp16">&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=APJAJeePl4g&amp;amp;list=PLieE0qnqO2kTyzAlsvxzoulHVISvO8zA9&amp;amp;index=33&quot;&gt;SEOUL G-캠프&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;i&gt;Full Table Of Contents&lt;/i&gt;&lt;br /&gt;
@@ -1769,4 +1901,383 @@ pageEncoding=&quot;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;utf&lt;/span&gt;
 
 &lt;h6 id=&quot;-서버-실행-3&quot;&gt;▷ 서버 실행&lt;/h6&gt;
 &lt;p&gt;&lt;img src=&quot;assets/built/postsImages/JSP/2021-08-27-jsp11/img_9.png&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;
-&lt;img src=&quot;assets/built/postsImages/JSP/2021-08-27-jsp11/img_10.png&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;</content><author><name>Jungran_Baek</name></author><category term="jsp" /><summary type="html">SEOUL G-캠프</summary></entry></feed>
+&lt;img src=&quot;assets/built/postsImages/JSP/2021-08-27-jsp11/img_10.png&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;</content><author><name>Jungran_Baek</name></author><category term="jsp" /><summary type="html">SEOUL G-캠프</summary></entry><entry><title type="html">10. jsp2</title><link href="https://100cjran.github.io//jsp10" rel="alternate" type="text/html" title="10. jsp2" /><published>2021-10-08T09:00:10+09:00</published><updated>2021-10-08T09:00:10+09:00</updated><id>https://100cjran.github.io//jsp10</id><content type="html" xml:base="https://100cjran.github.io//jsp10">&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=APJAJeePl4g&amp;amp;list=PLieE0qnqO2kTyzAlsvxzoulHVISvO8zA9&amp;amp;index=33&quot;&gt;SEOUL G-캠프&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Full Table Of Contents&lt;/i&gt;&lt;br /&gt;
+&lt;span class=&quot;table-of-contents-list&quot;&gt;jsp&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./jsp1&quot;&gt;웹 프로그래밍&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./jsp2&quot;&gt;개발 환경 설정&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./jsp3&quot;&gt;JSP 맛보기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./jsp4&quot;&gt;Servlet 맛보기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./jsp5&quot;&gt;Servlet 본격적으로 살펴보기1&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./jsp6&quot;&gt;Servlet 본격적으로 살펴보기2&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./jsp7&quot;&gt;Servlet 본격적으로 살펴보기3&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./jsp8&quot;&gt;Servlet 본격적으로 살펴보기4&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./jsp9&quot;&gt;JSP 본격적으로 살펴보기1&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./jsp10&quot;&gt;JSP 본격적으로 살펴보기2&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./jsp11&quot;&gt;JSP 본격적으로 살펴보기3&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./jsp12&quot;&gt;액션 태그&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./jsp13&quot;&gt;쿠키&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./jsp14&quot;&gt;세션&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./jsp15&quot;&gt;예외 페이지&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./jsp16&quot;&gt;자바 빈&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./jsp17&quot;&gt;데이터 베이스1&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./jsp18&quot;&gt;데이터 베이스2&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./jsp19&quot;&gt;데이터 베이스3&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./jsp20&quot;&gt;커넥션 풀&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;0-목차&quot;&gt;0. 목차&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;chapter10-jsp-본격적으로-살펴보기-ii&quot;&gt;Chapter10. JSP 본격적으로 살펴보기-II&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;h4 id=&quot;ch10---1-스크립트릿-선언-표현식&quot;&gt;Ch10 - 1. &lt;a href=&quot;#Verse1&quot;&gt;스크립트릿, 선언, 표현식&lt;/a&gt;&lt;/h4&gt;
+  &lt;h4 id=&quot;ch10---2-지시자&quot;&gt;Ch10 - 2. &lt;a href=&quot;#Verse2&quot;&gt;지시자&lt;/a&gt;&lt;/h4&gt;
+  &lt;h4 id=&quot;ch10---3-주석&quot;&gt;Ch10 - 3. &lt;a href=&quot;#Verse3&quot;&gt;주석&lt;/a&gt;&lt;/h4&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;a name=&quot;Verse1&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;ch10---1-스크립트릿-선언-표현식-1&quot;&gt;Ch10 - 1. 스크립트릿, 선언, 표현식&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;h3 id=&quot;-스크립scripe&quot;&gt;▶ 스크립(scripe)&lt;/h3&gt;
+&lt;h6 id=&quot;-스크립트릿-선언-표현식--스크립&quot;&gt;▷ 스크립트릿, 선언, 표현식 = 스크립&lt;/h6&gt;
+&lt;h6 id=&quot;-jsp-문서-안에-java-언어를-넣기-위한-방식들&quot;&gt;▷ JSP 문서 안에 JAVA 언어를 넣기 위한 방식들&lt;/h6&gt;
+&lt;h6 id=&quot;-실제-개발에서-많이-사용&quot;&gt;▷ 실제 개발에서 많이 사용&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;-스크립트릿scriptlet---java-코드-&quot;&gt;▶ 스크립트릿(scriptlet) : &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;% java 코드 %&amp;gt;&lt;/code&gt;&lt;/h3&gt;
+&lt;h6 id=&quot;-jsp-페이지에서-java-언어를-사용하기-위한-요소-중-가장-많이-사용되는-요소&quot;&gt;▷ JSP 페이지에서 JAVA 언어를 사용하기 위한 요소 중 가장 많이 사용되는 요소&lt;/h6&gt;
+&lt;h6 id=&quot;-우리가-알고-있는-거의-모든-java-코드를-사용-가능&quot;&gt;▷ 우리가 알고 있는 거의 모든 JAVA 코드를 사용 가능&lt;/h6&gt;
+&lt;h6 id=&quot;-jsp가-was에-있을-때-코드--html로-응답되었을-때-코드&quot;&gt;▷ .jsp가 WAS에 있을 때 코드 ≠ html로 응답되었을 때 코드&lt;/h6&gt;
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// scriptlet.jsp&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;%&lt;/span&gt;
+    &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;){&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++;&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;2 * &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot; = &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&amp;lt;br /&amp;gt;&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;%&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;o&quot;&gt;=========&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;br&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;o&quot;&gt;&amp;lt;%&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;%&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/built/postsImages/JSP/2021-08-27-jsp10/img.png&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;-선언declaration---java-코드-&quot;&gt;▶ 선언(declaration) : &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;%! java 코드 %&amp;gt;&lt;/code&gt;&lt;/h3&gt;
+&lt;h6 id=&quot;-jsp-페이지-내에서-사용되는-변수-또는-메소드를-선언할-때-사용&quot;&gt;▷ JSP 페이지 내에서 사용되는 변수 또는 메소드를 선언할 때 사용&lt;/h6&gt;
+&lt;h6 id=&quot;-여기서-선언된-변수-및-메소드는-전역의-의미로-사용&quot;&gt;▷ 여기서 선언된 변수 및 메소드는 전역의 의미로 사용&lt;/h6&gt;
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// declaration.jsp&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;%!&lt;/span&gt;
+    &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;str&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;ABCDE&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;%&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;o&quot;&gt;&amp;lt;%!&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;%&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;%&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;i = &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&amp;lt;br /&amp;gt;&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;str = &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;str&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&amp;lt;br /&amp;gt;&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;sum = &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&amp;lt;br /&amp;gt;&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;%&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/built/postsImages/JSP/2021-08-27-jsp10/img_1.png&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;-표현식expression---java-코드-&quot;&gt;▶ 표현식(expression) : &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;%= java 코드 %&amp;gt;&lt;/code&gt;&lt;/h3&gt;
+&lt;h6 id=&quot;-jsp-페이지-내에서-사용되는-변수의-값-또는-메소드-호출-결과값을-출력하기-위해-사용&quot;&gt;▷ JSP 페이지 내에서 사용되는 변수의 값 또는 메소드 호출 결과값을 출력하기 위해 사용&lt;/h6&gt;
+&lt;h6 id=&quot;-결과값은-string-타입&quot;&gt;▷ 결과값은 String 타입&lt;/h6&gt;
+&lt;h6 id=&quot;-세미콜론-사용-불가&quot;&gt;▷ 세미콜론(;) 사용 불가&lt;/h6&gt;
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// expression.jsp&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;%!&lt;/span&gt;
+    &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;str&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;abc&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;%&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;%=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;br&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;%=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;str&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;br&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;%=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/built/postsImages/JSP/2021-08-27-jsp10/img_2.png&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;a name=&quot;Verse2&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;ch10---2-지시자-1&quot;&gt;Ch10 - 2. 지시자&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;h3 id=&quot;-지시자---속성-&quot;&gt;▶ 지시자 : &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;%@ 속성 %&amp;gt;&lt;/code&gt;&lt;/h3&gt;
+&lt;h6 id=&quot;-지시자의-종류&quot;&gt;▷ 지시자의 종류&lt;/h6&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- page : 해당 페이지의 전체적인 속성 지정
+- include : 별도의 페이지를 현재 페이지에 삽입
+- taglib : 태그라이브러리의 태그 사용
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h6 id=&quot;-jsp-페이지의-전체적인-속성을-지정할-때-사용&quot;&gt;▷ JSP 페이지의 전체적인 속성을 지정할 때 사용&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;-page&quot;&gt;▶ page&lt;/h3&gt;
+&lt;h6 id=&quot;-페이지의-속성을-지정할-때-사용&quot;&gt;▷ 페이지의 속성을 지정할 때 사용&lt;/h6&gt;
+&lt;h6 id=&quot;-주로-사용되는-언어-지정-및-import문에-사용&quot;&gt;▷ 주로 사용되는 언어 지정 및 import문에 사용&lt;/h6&gt;
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// page.jsp&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;%&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;@page&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;=&quot;&lt;/span&gt;&lt;span class=&quot;nn&quot;&gt;java.util.Arrays&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;%&amp;gt; // 아래 Arrays 사용하기 위해 import문 필요 → page 사용
+&amp;lt;%@page language=&quot;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;java&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot; contentType=&quot;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;html&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;charset&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;utf&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot; pageEncoding=&quot;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;utf&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&amp;gt;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// page 사용&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;%&lt;/span&gt;
+    &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;iArr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;30&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;};&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;Arrays&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;toString&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;iArr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;));&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;%&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/built/postsImages/JSP/2021-08-27-jsp10/img_3.png&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;-include&quot;&gt;▶ include&lt;/h3&gt;
+&lt;h6 id=&quot;-현재-페이지내에-다른-페이지를-삽입할-때-사용&quot;&gt;▷ 현재 페이지내에 다른 페이지를 삽입할 때 사용&lt;/h6&gt;
+&lt;h6 id=&quot;-file-속성-이용--다른-file-띄움&quot;&gt;▷ file 속성 이용 : 다른 file 띄움&lt;/h6&gt;
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// include.jsp&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;h1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;jsp&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;페이지&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;입니다&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;h1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;br&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;%&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;@&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;file&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;include01.jsp&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&amp;gt;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// include01.jsp 파일을 삽입&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;h1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;다시&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;jsp&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;페이지&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;입니다&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;h1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;br&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// include01.jsp&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;h1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;include01&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;jsp&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;페이지&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;입니다&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;h1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/built/postsImages/JSP/2021-08-27-jsp10/img_4.png&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;-taglib&quot;&gt;▶ taglib&lt;/h3&gt;
+&lt;h6 id=&quot;-사용자가-만든-tag--태그-라이브러리&quot;&gt;▷ 사용자가 만든 tag = 태그 라이브러리&lt;/h6&gt;
+&lt;h6 id=&quot;-이러한-태그-라이브러리를-사용하기-위해-taglib-지시자-사용&quot;&gt;▷ 이러한 태그 라이브러리를 사용하기 위해 taglib 지시자 사용&lt;/h6&gt;
+&lt;h6 id=&quot;-uri-및-prefix-속성이-있음&quot;&gt;▷ uri 및 prefix 속성이 있음&lt;/h6&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- uri : 태그라이브러이의 위치 값을 가짐
+- prefix : 태그를 가리키는 이름 값을 가짐
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;a name=&quot;Verse3&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;ch10---3-주석-1&quot;&gt;Ch10 - 3. 주석&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;h3 id=&quot;-주석이란&quot;&gt;▶ 주석이란?&lt;/h3&gt;
+&lt;h6 id=&quot;-실제-프로그램에는-영향이-없음&quot;&gt;▷ 실제 프로그램에는 영향이 없음&lt;/h6&gt;
+&lt;h6 id=&quot;-프로그램-설명을-목적으로-사용되는-태그&quot;&gt;▷ 프로그램 설명을 목적으로 사용되는 태그&lt;/h6&gt;
+&lt;h6 id=&quot;-html-주석--jsp-주석--각자의-주석-존재&quot;&gt;▷ HTML 주석 ≠ JSP 주석 : 각자의 주석 존재&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;-html-주석&quot;&gt;▶ HTML 주석&lt;/h3&gt;
+&lt;h6 id=&quot;-html--브라우저에서-실행&quot;&gt;▷ html = 브라우저에서 실행&lt;/h6&gt;
+&lt;h6 id=&quot;-브라우저에서-소스-보기-가능&quot;&gt;▷ 브라우저에서 소스 보기 가능&lt;/h6&gt;
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// .html&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;%--&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;여기는&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;주석&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;입니다&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--%&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;여기는&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;주석이&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;아닙니다&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/built/postsImages/JSP/2021-08-27-jsp10/img_5.png&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;-jsp-주석&quot;&gt;▶ JSP 주석&lt;/h3&gt;
+&lt;h6 id=&quot;-jsp--was서버에서-실행&quot;&gt;▷ jsp = WAS(서버)에서 실행&lt;/h6&gt;
+&lt;h6 id=&quot;-브라우저에서-소스-보기-불가&quot;&gt;▷ 브라우저에서 소스 보기 불가&lt;/h6&gt;
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// .jsp&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;%--&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;여기는&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;주석&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;입니다&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--%&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;여기는&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;주석이&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;아닙니다&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/built/postsImages/JSP/2021-08-27-jsp10/img_6.png&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;</content><author><name>Jungran_Baek</name></author><category term="jsp" /><summary type="html">SEOUL G-캠프</summary></entry><entry><title type="html">9. jsp1</title><link href="https://100cjran.github.io//jsp9" rel="alternate" type="text/html" title="9. jsp1" /><published>2021-10-08T09:00:09+09:00</published><updated>2021-10-08T09:00:09+09:00</updated><id>https://100cjran.github.io//jsp9</id><content type="html" xml:base="https://100cjran.github.io//jsp9">&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=APJAJeePl4g&amp;amp;list=PLieE0qnqO2kTyzAlsvxzoulHVISvO8zA9&amp;amp;index=33&quot;&gt;SEOUL G-캠프&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Full Table Of Contents&lt;/i&gt;&lt;br /&gt;
+&lt;span class=&quot;table-of-contents-list&quot;&gt;jsp&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./jsp1&quot;&gt;웹 프로그래밍&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./jsp2&quot;&gt;개발 환경 설정&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./jsp3&quot;&gt;JSP 맛보기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./jsp4&quot;&gt;Servlet 맛보기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./jsp5&quot;&gt;Servlet 본격적으로 살펴보기1&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./jsp6&quot;&gt;Servlet 본격적으로 살펴보기2&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./jsp7&quot;&gt;Servlet 본격적으로 살펴보기3&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./jsp8&quot;&gt;Servlet 본격적으로 살펴보기4&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./jsp9&quot;&gt;JSP 본격적으로 살펴보기1&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./jsp10&quot;&gt;JSP 본격적으로 살펴보기2&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./jsp11&quot;&gt;JSP 본격적으로 살펴보기3&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./jsp12&quot;&gt;액션 태그&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./jsp13&quot;&gt;쿠키&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./jsp14&quot;&gt;세션&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./jsp15&quot;&gt;예외 페이지&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./jsp16&quot;&gt;자바 빈&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./jsp17&quot;&gt;데이터 베이스1&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./jsp18&quot;&gt;데이터 베이스2&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./jsp19&quot;&gt;데이터 베이스3&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./jsp20&quot;&gt;커넥션 풀&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;0-목차&quot;&gt;0. 목차&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;chapter9-jsp-본격적으로-살펴보기-i&quot;&gt;Chapter9. JSP 본격적으로 살펴보기-I&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;h4 id=&quot;ch9---1-jsp-태그의-개념-이해&quot;&gt;Ch9 - 1. &lt;a href=&quot;#Verse1&quot;&gt;JSP 태그의 개념 이해&lt;/a&gt;&lt;/h4&gt;
+  &lt;h4 id=&quot;ch9---2-jsp-동작-원리&quot;&gt;Ch9 - 2. &lt;a href=&quot;#Verse2&quot;&gt;JSP 동작 원리&lt;/a&gt;&lt;/h4&gt;
+  &lt;h4 id=&quot;ch9---3-jsp-내부-객체&quot;&gt;Ch9 - 3. &lt;a href=&quot;#Verse3&quot;&gt;JSP 내부 객체&lt;/a&gt;&lt;/h4&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;a name=&quot;Verse1&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;ch9---1-jsp-태그의-개념-이해-1&quot;&gt;Ch9 - 1. JSP 태그의 개념 이해&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;h3 id=&quot;-html--servlet-vs-jsp&quot;&gt;▶ HTML : Servlet vs JSP&lt;/h3&gt;
+&lt;h6 id=&quot;-html_servlet--java-언어-출력-객체를-이용하여-html-코드-삽입&quot;&gt;▷ HTML_Servlet : JAVA 언어, 출력 객체를 이용하여 HTML 코드 삽입&lt;/h6&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Servlet은 MVC에서 controller로 많이 이용
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h6 id=&quot;-html_jsp--html-코드에-java-언어를-삽입&quot;&gt;▷ HTML_JSP : HTML 코드에 JAVA 언어를 삽입&lt;/h6&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- jsp는 html 작성 방법이 화면 구성을 하기 쉬움
+    - html을 만들어 놓고 jsp를 그냥 넣으면 됨
+
+- 그래서 MVC에서 view로 많이 이용 됨
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h6 id=&quot;-공통점--was에서-동작&quot;&gt;▷ 공통점 : WAS에서 동작&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&quot;assets/built/postsImages/JSP/2021-08-27-jsp9/img.png&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;-jsp-태그-공부의-필요성&quot;&gt;▶ JSP 태그 공부의 필요성&lt;/h3&gt;
+&lt;h6 id=&quot;-html-코드-안에-java-코드를-삽입-시-태그-이용&quot;&gt;▷ HTML 코드 안에 JAVA 코드를 삽입 시 태그 이용&lt;/h6&gt;
+&lt;h6 id=&quot;-따라서-이러한-태그를-공부해야-함&quot;&gt;▷ 따라서 이러한 태그를 공부해야 함&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;-jsp-태그-종류&quot;&gt;▶ JSP 태그 종류&lt;/h3&gt;
+&lt;h6 id=&quot;-지시자--페이지-속성&quot;&gt;▷ 지시자 : 페이지 속성&lt;/h6&gt;
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;%&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;@&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h6 id=&quot;-주석&quot;&gt;▷ 주석&lt;/h6&gt;
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;%--&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--%&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- html 주석 : 브라우저가 실행 → 브라우저에서 소스 보기를 통해 보기 가능
+- jsp 주석 : WAS에서 실행 → 서버에서 실행되서 브라우저에서 보기 불가
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h6 id=&quot;-선언--변수-메서드-선언&quot;&gt;▷ 선언 : 변수, 메서드 선언&lt;/h6&gt;
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;%!&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// 변수 선언&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;string&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;str&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;ABC&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 어디서나 볼 수 있는 전역의 의미로 사용&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// jsp 변수 선언&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;%!&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;string&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;str&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;ABC&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;%&amp;gt;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 세미콜론(;)을 붙임&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h6 id=&quot;-표현식--결과값-출력&quot;&gt;▷ 표현식 : 결과값 출력&lt;/h6&gt;
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;%=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- 세미콜론(;) 붙이지 않음
+- = : 값을 표현
+    - &amp;lt;%=str%&amp;gt; // ABC
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h6 id=&quot;-스크립-트릿--java-코드&quot;&gt;▷ 스크립 트릿 : JAVA 코드&lt;/h6&gt;
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;%&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// html&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;%&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// java 코드 작성&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;%&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h6 id=&quot;-액션-태그--java-빈-연결&quot;&gt;▷ 액션 태그 : JAVA 빈 연결&lt;/h6&gt;
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;jsp:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;action&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;jsp:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;action&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;a name=&quot;Verse2&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;ch9---2-jsp-동작-원리-1&quot;&gt;Ch9 - 2. JSP 동작 원리&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;h3 id=&quot;-jsp가-요청되어-응답하기까지&quot;&gt;▶ JSP가 요청되어 응답하기까지&lt;/h3&gt;
+&lt;h6 id=&quot;-클라이언트가-웹-브라우저로-helloworldjsp를-요청하게-되면&quot;&gt;▷ 클라이언트가 웹 브라우저로 helloWorld.jsp를 요청하게 되면,&lt;/h6&gt;
+&lt;h6 id=&quot;-jsp-컨테이너가-jsp-파일을-servlet-파일java로-변환&quot;&gt;▷ JSP 컨테이너가 JSP 파일을 Servlet 파일(.java)로 변환&lt;/h6&gt;
+&lt;h6 id=&quot;-그리고-servlet-파일java은-컴파일-된-후-클래스-파일class로-변환되고&quot;&gt;▷ 그리고 Servlet 파일(.java)은 컴파일 된 후 클래스 파일(.class)로 변환되고,&lt;/h6&gt;
+&lt;h6 id=&quot;-요청한-클라이언트한테-html-파일-형태로-응답&quot;&gt;▷ 요청한 클라이언트한테 html 파일 형태로 응답&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&quot;assets/built/postsImages/JSP/2021-08-27-jsp9/img_1.png&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;
+&lt;img src=&quot;assets/built/postsImages/JSP/2021-08-27-jsp9/img_2.png&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;
+&lt;img src=&quot;assets/built/postsImages/JSP/2021-08-27-jsp9/img_3.png&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;
+&lt;img src=&quot;assets/built/postsImages/JSP/2021-08-27-jsp9/img_4.png&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;
+&lt;img src=&quot;assets/built/postsImages/JSP/2021-08-27-jsp9/img_5.png&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;-servlet-vs-jsp&quot;&gt;▶ Servlet vs JSP&lt;/h3&gt;
+&lt;h6 id=&quot;-servlet&quot;&gt;▷ Servlet&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&quot;assets/built/postsImages/JSP/2021-08-27-jsp9/img_6.png&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;-jsp&quot;&gt;▷ JSP&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&quot;assets/built/postsImages/JSP/2021-08-27-jsp9/img_7.png&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;a name=&quot;Verse3&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;ch9---3-jsp-내부-객체-1&quot;&gt;Ch9 - 3. JSP 내부 객체&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;h3 id=&quot;-jsp-내부-객체란&quot;&gt;▶ JSP 내부 객체란?&lt;/h3&gt;
+&lt;h6 id=&quot;-객체를-생성하지-않고-바로-사용할-수-있는-객체&quot;&gt;▷ 객체를 생성하지 않고 바로 사용할 수 있는 객체&lt;/h6&gt;
+&lt;h6 id=&quot;-jsp에서-제공&quot;&gt;▷ JSP에서 제공&lt;/h6&gt;
+&lt;h6 id=&quot;-내부-객체는-jsp-컨테이너에-의해-servlet으로-변환될-때-자동으로-객체-생성&quot;&gt;▷ 내부 객체는 JSP 컨테이너에 의해 Servlet으로 변환될 때 자동으로 객체 생성&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;-내부-객체-종류&quot;&gt;▶ 내부 객체 종류&lt;/h3&gt;
+&lt;h6 id=&quot;-입출력-객체--request-response-out&quot;&gt;▷ 입출력 객체 : request, response, out&lt;/h6&gt;
+&lt;h6 id=&quot;-서블릿-객체--page-config&quot;&gt;▷ 서블릿 객체 : page, config&lt;/h6&gt;
+&lt;h6 id=&quot;-세션-객체--session&quot;&gt;▷ 세션 객체 : session&lt;/h6&gt;
+&lt;h6 id=&quot;-예외-객체--exception&quot;&gt;▷ 예외 객체 : exception&lt;/h6&gt;</content><author><name>Jungran_Baek</name></author><category term="jsp" /><summary type="html">SEOUL G-캠프</summary></entry></feed>
