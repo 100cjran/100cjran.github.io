@@ -217,9 +217,11 @@ into the {body} of the default.hbs template -->
 <h2 id="0-목차">0. 목차</h2>
 <hr />
 <h2 id="chapter17-데이터-베이스-i">Chapter17. 데이터 베이스-I</h2>
-<h4 id="ch17---1-데이터-베이스의-개요">Ch17 - 1. <a href="#Verse1">데이터 베이스의 개요</a></h4>
-<h4 id="ch17---2-oracle-설치">Ch17 - 2. <a href="#Verse2">Oracle 설치</a></h4>
-<h4 id="ch17---3-기본적인-sql문-익히기">Ch17 - 3. <a href="#Verse3">기본적인 SQL문 익히기</a></h4>
+<blockquote>
+  <h4 id="ch17---1-데이터-베이스의-개요">Ch17 - 1. <a href="#Verse1">데이터 베이스의 개요</a></h4>
+  <h4 id="ch17---2-oracle-설치">Ch17 - 2. <a href="#Verse2">Oracle 설치</a></h4>
+  <h4 id="ch17---3-기본적인-sql문-익히기">Ch17 - 3. <a href="#Verse3">기본적인 SQL문 익히기</a></h4>
+</blockquote>
 
 <p><br /><a name="Verse1"></a></p>
 
@@ -260,12 +262,26 @@ into the {body} of the default.hbs template -->
 <h2 id="ch17---2-oracle-설치-1">Ch17 - 2. Oracle 설치</h2>
 <hr />
 <h3 id="-oracle-설치">▶ Oracle 설치</h3>
-<h6 id="-홈페이지-접속-및-다운">▷ 홈페이지 접속 및 다운</h6>
+<h6 id="-오라클-홈페이지-접속">▷ <a href="https://www.oracle.com/kr/downloads/">오라클 홈페이지 접속</a></h6>
 <p><img src="assets/built/postsImages/JSP/2021-08-27-jsp17/img_1.png" alt="" width="100%" />
 <img src="assets/built/postsImages/JSP/2021-08-27-jsp17/img_2.png" alt="" width="100%" />
 <img src="assets/built/postsImages/JSP/2021-08-27-jsp17/img_3.png" alt="" width="100%" />
 <img src="assets/built/postsImages/JSP/2021-08-27-jsp17/img_4.png" alt="" width="100%" />
-<img src="assets/built/postsImages/JSP/2021-08-27-jsp17/img_5.png" alt="" width="100%" /></p>
+<br /></p>
+
+<h3 id="-sql-plus란">▶ SQL PLUS란?</h3>
+<h6 id="-데이터-베이스를-관리하기-위한-무료-툴">▷ 데이터 베이스를 관리하기 위한 무료 툴</h6>
+<p><br /></p>
+
+<h3 id="-sql-plus-사용">▶ SQL PLUS 사용</h3>
+<h6 id="-관리자-계정-로그인">▷ 관리자 계정 로그인</h6>
+<p><img src="assets/built/postsImages/JSP/2021-08-27-jsp17/img_5.png" alt="" width="100%" /></p>
+
+<h6 id="-idnamewhat-pwpwwhat-계정-생성">▷ id=nameWhat, pw=pwWhat 계정 생성</h6>
+<p><img src="assets/built/postsImages/JSP/2021-08-27-jsp17/img_6.png" alt="" width="100%" /></p>
+
+<h6 id="-권한-설정">▷ 권한 설정</h6>
+<p><img src="assets/built/postsImages/JSP/2021-08-27-jsp17/img_7.png" alt="" width="100%" /></p>
 
 <p><br /><a name="Verse3"></a></p>
 
@@ -273,9 +289,17 @@ into the {body} of the default.hbs template -->
 
 <h2 id="ch17---3-기본적인-sql문-익히기-1">Ch17 - 3. 기본적인 SQL문 익히기</h2>
 <hr />
-<h3 id="-테이블-생성">▶ 테이블 생성</h3>
-<h6 id="-작성-방법">▷ 작성 방법</h6>
+<h3 id="-기본적인-sql문-익히기">▶ 기본적인 SQL문 익히기</h3>
+<h6 id="-테이블-생성">▷ 테이블 생성</h6>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>create table 테이블명 (컬럼명 자료형);
+</code></pre></div></div>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SQL&gt; create table firstT (
+  2  id varchar2(20) primary key,
+  3  pw varchar2(20),
+  4  name varchar2(20),
+  5  phone varchar2(20));
+
+테이블이 생성되었습니다.
 </code></pre></div></div>
 
 <h6 id="-자료형이란">▷ 자료형이란?</h6>
@@ -285,39 +309,153 @@ into the {body} of the default.hbs template -->
 </code></pre></div></div>
 <p><br /></p>
 
-<h3 id="-테이블-검색">▶ 테이블 검색</h3>
-<h6 id="-작성-방법-1">▷ 작성 방법</h6>
+<h6 id="-테이블-검색">▷ 테이블 검색</h6>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Select * from tab;
 </code></pre></div></div>
-<p><br /></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SQL&gt; select * from tab;
 
-<h3 id="-레코드-추가">▶ 레코드 추가</h3>
-<h6 id="-작성-방법-2">▷ 작성 방법</h6>
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">Insert</span> <span class="n">into</span> <span class="n">테이블이름</span><span class="o">(</span><span class="n">컬럼명</span><span class="o">,</span> <span class="n">컬럼명</span><span class="o">,</span> <span class="err">…</span><span class="o">)</span> <span class="n">values</span> <span class="o">(</span><span class="n">데이터</span><span class="o">,</span> <span class="n">데이터</span><span class="o">,</span> <span class="err">…</span><span class="o">);</span>
+// sqlplus UI가 좋은 편 아님
+// firstT 만들어 진 거 확인 가능
+TNAME
+--------------------------------------------------------------------------------
+TABTYPE                     CLUSTERID
+-------------------------- ----------
+FIRSTT
+TABLE
 </code></pre></div></div>
 <p><br /></p>
 
-<h3 id="-레코드-검색">▶ 레코드 검색</h3>
-<h6 id="-작성-방법-3">▷ 작성 방법</h6>
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">select</span> <span class="n">컬럼명</span> <span class="n">from</span> <span class="n">테이블명</span>
+<h6 id="-레코드-추가">▷ 레코드 추가</h6>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Insert into 테이블이름(컬럼명, 컬럼명, …) values (데이터, 데이터, …);
+</code></pre></div></div>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SQL&gt; Insert into member (id, pw, name, phone) values ('abc', '123', 'AAA', '111-1111-1111');
+1개의 행이 만들어졌습니다.
+
+SQL&gt; Insert into member (id, pw, name, phone) values ('bbb', '222', 'BBB', '222-2222-2222');
+1개의 행이 만들어졌습니다.
+
+SQL&gt; Insert into member (id, pw, name, phone) values ('ccc', '333', 'BBB', '333-3333-3333');
+1개의 행이 만들어졌습니다.
+
+// 커밋
+SQL&gt; commit;
+커밋이 완료되었습니다.
+</code></pre></div></div>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>레코드 추가 시 권한 불충분으로 에러나서(ORA-01950)
+- 관리자 권한으로 sqlplus 로그인 후
+    sqlplus system/비번
+    
+- 레코드가 있는 id(nameWhat)에 권한을 줌, 커밋까지 해 줌
+    alter user C##nameWhat default tablespace users quota unlimited on users;
+    commit;
+    
+- exit으로 나간 뒤 다시 레코드가 있는 id(nameWhat)로 로그인
 </code></pre></div></div>
 <p><br /></p>
 
-<h3 id="-레코드-삭제">▶ 레코드 삭제</h3>
-<h6 id="-작성-방법-4">▷ 작성 방법</h6>
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">delete</span> <span class="n">from</span> <span class="n">테이블명</span> <span class="o">(</span><span class="n">조건</span><span class="o">)</span>
+<h6 id="-레코드-검색">▷ 레코드 검색</h6>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>select 컬럼명 from 테이블명
+</code></pre></div></div>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SQL&gt; select * from member;
+
+ID
+----------------------------------------
+PW
+----------------------------------------
+NAME
+----------------------------------------
+PHONE
+----------------------------------------
+abc
+123
+AAA
+111-1111-1111
+
+
+ID
+----------------------------------------
+PW
+----------------------------------------
+NAME
+----------------------------------------
+PHONE
+----------------------------------------
+bbb
+222
+BBB
+222-2222-2222
+
+
+ID
+----------------------------------------
+PW
+----------------------------------------
+NAME
+----------------------------------------
+PHONE
+----------------------------------------
+ccc
+333
+CCC
+333-3333-3333
 </code></pre></div></div>
 <p><br /></p>
 
-<h3 id="-데이터-변경">▶ 데이터 변경</h3>
-<h6 id="-작성-방법-5">▷ 작성 방법</h6>
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">update</span> <span class="n">테이블명</span> <span class="n">set</span> <span class="n">컬럼명</span><span class="o">=</span><span class="n">값</span><span class="o">,</span> <span class="n">컬럼명</span><span class="o">=</span><span class="n">값</span><span class="o">,</span> <span class="err">…</span> <span class="n">조건</span>
+<h6 id="-레코드-삭제">▷ 레코드 삭제</h6>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>delete from 테이블명 (조건)
+</code></pre></div></div>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>// 레코드 삭제
+SQL&gt; delete from member where name='CCC';
+1 행이 삭제되었습니다.
+
+// 레코드 검색
+SQL&gt; select * from member;
+
+ID
+----------------------------------------
+PW
+----------------------------------------
+NAME
+----------------------------------------
+PHONE
+----------------------------------------
+abc
+123
+AAA
+111-1111-1111
+
+
+ID
+----------------------------------------
+PW
+----------------------------------------
+NAME
+----------------------------------------
+PHONE
+----------------------------------------
+bbb
+222
+BBB
+222-2222-2222
+
+// CCC 없음
 </code></pre></div></div>
 <p><br /></p>
 
-<h3 id="-테이블-삭제">▶ 테이블 삭제</h3>
-<h6 id="-작성-방법-6">▷ 작성 방법</h6>
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">drop</span> <span class="n">table</span> <span class="n">테이블명</span>
+<h6 id="-데이터-변경">▷ 데이터 변경</h6>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>update 테이블명 set 컬럼명=값, 컬럼명=값, … 조건
+</code></pre></div></div>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>// id=bbb 행의 pw를 222에서 222**로 변경
+SQL&gt; update member set pw='222**' where id='bbb';
+1 행이 업데이트되었습니다.
+</code></pre></div></div>
+<p><br /></p>
+
+<h6 id="-테이블-삭제">▷ 테이블 삭제</h6>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>drop table 테이블명
+</code></pre></div></div>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SQL&gt; drop table member;
+테이블이 삭제되었습니다.
 </code></pre></div></div>
 
                 </div>
@@ -389,25 +527,7 @@ into the {body} of the default.hbs template -->
                                     
                                         
                                         
-                                            <li><a href="/jsp20">1. 웹 프로그래밍</a></li>
-                                        
-                                    
-                                  
-                                
-                                  
-                                    
-                                        
-                                        
-                                            <li><a href="/jsp19">1. 웹 프로그래밍</a></li>
-                                        
-                                    
-                                  
-                                
-                                  
-                                    
-                                        
-                                        
-                                            <li><a href="/jsp18">1. 웹 프로그래밍</a></li>
+                                            <li><a href="/jsp18">18. DB2</a></li>
                                         
                                     
                                   
@@ -420,12 +540,16 @@ into the {body} of the default.hbs template -->
                                     
                                         
                                         
+                                            <li><a href="/jsp16">16. 자바 빈</a></li>
+                                        
                                     
                                   
                                 
                                   
                                     
                                         
+                                        
+                                            <li><a href="/jsp15">15. 예외 페이지</a></li>
                                         
                                     
                                   
@@ -863,7 +987,7 @@ into the {body} of the default.hbs template -->
                         <footer class="read-next-card-footer">
                             <a href="/tag/jsp/">
                                 
-                                    See all 19 posts  →
+                                    See all 17 posts  →
                                 
                             </a>
                         </footer>
@@ -892,7 +1016,7 @@ into the {body} of the default.hbs template -->
                         
                     
 
-                    <h2 class="post-card-title">1. 웹 프로그래밍</h2>
+                    <h2 class="post-card-title">18. DB2</h2>
                 </header>
                 <section class="post-card-excerpt">
                     
@@ -1014,7 +1138,7 @@ into the {body} of the default.hbs template -->
         <!-- The footer at the very bottom of the screen -->
         <footer class="site-footer outer">
             <div class="site-footer-content inner">
-                <section class="copyright"><a href="https://100cjran.github.io//">100c'log</a> &copy; 2021</section>
+                <section class="copyright"><a href="https://100cjran.github.io//">100c'log</a> &copy; 2022</section>
                 <section class="poweredby">Proudly published with <a href="https://jekyllrb.com/">Jekyll</a> &
                     <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a> using
                     <a href="https://github.com/jekyllt/jasper2" target="_blank" rel="noopener">Jasper2</a></section>
